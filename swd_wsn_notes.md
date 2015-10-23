@@ -13,13 +13,18 @@
 8. Do we want site as a fixed effect?
   * or latitude?  
   * eventually, site should be a random effect, nested within region (a fixed effect)
-9.  
+9.  For now, are we ignoring mussel length strategy?
+10. Include sea star density as covariate (better yet, estimate of reduction in star density?)
+11. I think we should focus on absolute estimates, not change (for now)
+12. 
 
 ## Models
 
 1. Bed depth ~ distance * time + random(site, transect)
 2. Increase in bed depth ~ distance * time + random(site, transect)
   * Is increase relative to time 0?
-3.  Mussel recruit density ~ distance * time + random(site, transect)
-4.  Increase in mussel recruit density ~ distance * time + random(site, transect)
-5.  
+3. Mussel recruit density ~ distance * time + random(site, transect)
+4. Increase in mussel recruit density ~ distance * time + random(site, transect)
+  * relative to the first recruitment measure?  not sure why we need this
+5. Mussel size ~ distance * time + random(site, transect, quadrat)
+6. 
