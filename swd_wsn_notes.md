@@ -1,6 +1,6 @@
 # SWD data crunching for WSN
 
-Questions for Sarah
+##Questions for Sarah
 23 October 2015
 
 1. OK to have public repository?
@@ -9,4 +9,10 @@ Questions for Sarah
 4. Increase in bed depth - why so many blank cells?
 5. How to treat blank cells - NA?
 6. Please send me link to google drive
-7. 
+7. Should locationID include distance above bolt?
+
+## Models
+
+1. Bed depth ~ distance * time + random(site, transect)
+2. Increase in bed depth ~ distance * time + random(site, transect)
+3. 
